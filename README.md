@@ -34,19 +34,19 @@ pip install -r requirements.txt
 - The file "DeepMonitoring_testing_v1.py" in /DeepMonitoring is used for testing.
 
 The training and testing are executed as follows:
-Train Swin-Transformer on GPU
+# Train Swin-Transformer on GPU
 python DeepMonitoring_training_v1.py -a 'Transform_base'
 
-Train ConvNeXt on GPU
+# Train ConvNeXt on GPU
 python DeepMonitoring_training_v1.py -a 'convnext_base'
 
-Train RepVGG on GPU
+# Train RepVGG on GPU
 python DeepMonitoring_training_v1.py -a 'RepVGG_A1'
 
-Train MobileNet on GPU
+# Train MobileNet on GPU
 python DeepMonitoring_training_v1.py -a 'mobilenetv3_large_075'
 
-Evaluate four models of Swin-Transformer, ConvNeXt, RepVGG, and MobileNet at the same time on GPU
+# Evaluate four models of Swin-Transformer, ConvNeXt, RepVGG, and MobileNet at the same time on GPU
 python DeepMonitoring_testing_v1.py
 
 
