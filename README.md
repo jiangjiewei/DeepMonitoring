@@ -9,22 +9,22 @@ DeepMonitoring can be used to detect and filter out low-quality cornea images ge
 # Prerequisites
 - Ubuntu: 18.04 lts
 - Python 3.7.8
-Pytorch 1.6.0
-NVIDIA GPU + CUDA_10.0 CuDNN_7.5
-  This repository has been trained and tested on four NVIDIA RTX2080Ti. Configurations (e.g batch size, image patch size) may need to be changed on different platforms.
+- Pytorch 1.6.0
+- NVIDIA GPU + CUDA_10.0 CuDNN_7.5
+This repository has been trained and tested on four NVIDIA RTX2080Ti. Configurations (e.g batch size, image patch size) may need to be changed on different platforms.
 
 # Installation
 Other packages are as follows:
- pytorch: 1.6.0
- wheel: 0.34.2
-yaml: 0.2.5
-scipy: 1.5.2
-joblib: 0.16.0
-opencv-python: 4.3.0.38
-scikit-image: 0.17.2
-numpy: 1.19.1
-matplotlib：3.3.1
-sikit-learn：0.23.2
+- pytorch: 1.6.0
+- wheel: 0.34.2
+- yaml: 0.2.5
+- scipy: 1.5.2
+- joblib: 0.16.0
+- opencv-python: 4.3.0.38
+- scikit-image: 0.17.2
+- numpy: 1.19.1
+- matplotlib：3.3.1
+- sikit-learn：0.23.2
 
 # Install dependencies
 pip install -r requirements.txt
