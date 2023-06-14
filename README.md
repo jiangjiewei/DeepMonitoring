@@ -30,8 +30,8 @@ Other packages are as follows:
 pip install -r requirements.txt
 
 # Usage
-The file "DeepMonitoring_training_v1.py" in /DeepMonitoring is used for our models training.
-The file "DeepMonitoring_testing_v1.py" in /DeepMonitoring is used for testing.
+- The file "DeepMonitoring_training_v1.py" in /DeepMonitoring is used for our models training.
+- The file "DeepMonitoring_testing_v1.py" in /DeepMonitoring is used for testing.
 
 The training and testing are executed as follows:
 Train Swin-Transformer on GPU
